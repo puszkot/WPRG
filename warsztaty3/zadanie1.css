@@ -1,0 +1,19 @@
+h1 + p{
+    color: red
+}
+
+div > ul{
+    background-color: blue;
+}
+
+span{
+    color: green;
+}
+
+div > h2 {
+    font-style: italic;
+}
+
+h3 + ul{
+    background-color: yellow;
+}

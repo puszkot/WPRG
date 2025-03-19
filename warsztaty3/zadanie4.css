@@ -1,0 +1,16 @@
+div {
+    width: 220px;
+    background-color: lightgrey;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.parent2 > p {
+    color: red;
+    font-size: small;
+}
+.parent2 + p {
+    color: red;
+}
