@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+
+}
+
+.equal-width {
+    background-color: lightblue;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.fixed-percentage {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.flexible {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}

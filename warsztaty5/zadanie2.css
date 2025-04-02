@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 0 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-list > li {
+    padding-left: 10px;
+}
