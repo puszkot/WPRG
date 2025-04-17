@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="zad5.css">
+    <meta charset="UTF-8">
+    <title>Zadanie 5</title>
+</head>
+<body>
+<form method="post" action="zad5.php">
+    <h2>Prosty</h2>
+
+    <label for="liczba1"></label>
+    <input id=liczba1 type="number" name="liczba1">
+
+    <label for="operator1"></label>
+    <select name="operator1" id="operator1">
+        <option value="dodawanie" selected="selected">Dodawanie</option>
+        <option value="odejmowanie">Odejmowanie</option>
+        <option value="mnożenie">Mnożenie</option>
+        <option value="dzielenie">Dzielenie</option>
+    </select>
+
+    <label for="liczba2"></label>
+    <input id=liczba2 type="number" name="liczba2"><br>
+
+
+    <button name="prosty" type="submit">Oblicz</button>
+<hr>
+    <h2>Zaawansowany</h2>
+
+    <label for="liczba3"></label>
+    <input id=liczba3 type="text" name="liczba3" autocomplete="off">
+
+    <label for="operator2"></label>
+    <select name="operator2" id="operator2">
+        <option value="cos" selected="selected">cos</option>
+        <option value="sin">sin</option>
+        <option value="tg">tg</option>
+        <option value="bintodec">BinToDec</option>
+        <option value="dectobin">DecToBin</option>
+        <option value="dectohex">DectoHex</option>
+        <option value="hextodec">HexToDec</option>
+    </select><br>
+
+    <button name="zaawansowany" type="submit">Oblicz</button>
+
+</form>
+</body>
+</html>

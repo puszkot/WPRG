@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+input, select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    border:none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #777;
+}
