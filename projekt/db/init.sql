@@ -1,14 +1,14 @@
 # CREATE DATABASE IF NOT EXISTS projekt;
 
-USE projekt;
+#USE projekt;
 
-#USE s30295;
+USE s30295;
 
-DROP TABLE komentarze;
-DROP TABLE artykuly;
-DROP TABLE dzialy;
-DROP TABLE uzytkownicy;
-DROP TABLE wiadomosci;
+DROP TABLE IF EXISTS komentarze;
+DROP TABLE IF EXISTS wiadomosci;
+DROP TABLE IF EXISTS artykuly;
+DROP TABLE IF EXISTS dzialy;
+DROP TABLE IF EXISTS uzytkownicy;
 
 CREATE TABLE IF NOT EXISTS uzytkownicy (
                              id INT AUTO_INCREMENT PRIMARY KEY,
@@ -61,9 +61,4 @@ CREATE TABLE IF NOT EXISTS wiadomosci (
 INSERT INTO dzialy (nazwa) VALUES ('Polityka'),
                                   ('Techonologia'),
                                   ('Sport');
-INSERT INTO uzytkownicy (login, haslo, email, nazwa, rola) VALUES ('autor', 'autor', 'autor@autor.com', 'Autor', 'autor');
-INSERT INTO uzytkownicy (login, haslo, email, nazwa, rola) VALUES ('admin', 'admin', 'admin@admin.com', 'Admin', 'admin ');
-
-INSERT INTO artykuly (tytul, tresc, autor_id, dzial_id, img_url) VALUES ('tytul', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.',5, 3,'');
-
 

@@ -1,13 +1,13 @@
 <?php
-$host = "localhost";
-$user = "root";
-$password = "";
-$dbname = "projekt";
-
 //$host = "localhost";
-//$user = "s30295";
-//$password = "Mak.Choj";
-//$dbname = "s30295";
+//$user = "root";
+//$password = "";
+//$dbname = "projekt";
+
+$host = "localhost";
+$user = "s30295";
+$password = "Mak.Choj";
+$dbname = "s30295";
 
 $charset = "utf8mb4";
 
